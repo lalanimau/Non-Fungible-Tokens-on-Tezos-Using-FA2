@@ -15,9 +15,9 @@ This is start the Docker SandBox for local chain of Tezos
 
 minting : `tznft mint <owner_alias> --tokens <token_meta_list>`
 
-This is the syntax to in which we need to paas the pass the Data in order to create the Token
+This is the syntax in which we need to paas the pass the Data in order to create the Token
 
-tznft mint bob --tokens '0, T1, My Token One' '1, T2, My Token Two'
+`tznft mint bob --tokens '0, T1, My Token One' '1, T2, My Token Two'`
 
 Here we are creating 2 Tokens ie.
 
@@ -38,6 +38,7 @@ where --singer means 'alias on behalf of which contract is inspected'
 --tokens means we need to provide the ID for the Token. (In our case it is 0 and 1)
 
 expected output:
+
 token_id: 0 symbol: T1  name: My Token One  extras: { }
 
 token_id: 1 symbol: T2  name: My Token Two  extras: { }
